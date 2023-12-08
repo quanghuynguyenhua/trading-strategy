@@ -14,7 +14,7 @@ However, is there any merit to applying these techniques when it comes to invest
 
 Over the course of this paper, we examined the use and implementation of classic technical indicators for developing simple algorithmic trading models, while comparing the outcomes against one of Canada’s top performing mutual funds. Then, we looked into more modern methods of asset selection utilizing machine learning techniques such as K-Means to identify clusters of stocks with optimal variance to return measures. Finally, we examined a logic-based approach by ranking stocks in the NASDAQ-100 based on returns, continuously buying the top winners, then rebalancing the portfolio at the end of each month.
 
-Utilizing the Python programming language, we were able to show that implementing a rules-based approach to investing using technical indicators had the potential to outperform the TDB908 mutual fund.
+Utilizing the Python programming language, we were able to show that implementing a rules-based approach to investing using technical indicators had the potential to outperform the <a href= "https://marketsandresearch.td.com/tdwca/Public/MutualFundsProfile/Summary/ca/TDB908?addRecent=true"> TDB908 mutual fund</a>.
 
 As a result of our analysis, we believe there is ample opportunity for the inclusion of technical based indicators when it comes to stock selection and trading decisions in an investment portfolio. As such, adhering to a rules-based approach has the potential to increase investment returns beyond those seen in a traditional investment fund.
 
