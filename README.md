@@ -6,6 +6,7 @@ ANALYSIS OF CONVENTIONAL TECHNICAL INDICATORS & MACHINE LEARNING METHODS IN ALGO
 
 Prepared By: Huy Nguyen, Chris Gell
 
+<!-- ABSTRACT -->
 ##Abstract
 
 Technical Analysis as a concept has been around almost since the inception of the stock market itself. Through the use of statistical methods, price charting, and data collection, all these variables lead themselves along a simple path to a complicated outcome; utilizing past market movements to predict future pricing trends.
