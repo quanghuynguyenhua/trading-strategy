@@ -175,17 +175,17 @@ Trading Strategy Guides. (2023, March 15). *Best Ichimoku Cloud Strategy: Accele
 
 **Fig 2 – RSI & Pocket Pivot Returns Table**
 
-![](Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.002.png)
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.002.png)
 **
 
 
 **Fig 3 – RSI & Pocket Pivot Chart**
 
-![](Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.003.jpeg)
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.003.jpeg)
 
 **Fig 4 – Momentum Returns Table\***
 
-![](Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.004.png)
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.004.png)
 
 **\***The above cumulative product is based on returns from 2010 – 2014
 
@@ -193,62 +193,62 @@ Trading Strategy Guides. (2023, March 15). *Best Ichimoku Cloud Strategy: Accele
 
 **Fig 5 – Momentum Chart\***
 
-![](Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.005.png)
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.005.png)
 
 \*Based on the 5 year returns
 
 **Fig 6 – K-Means Initial Clustering – Outliers**
 
-![](Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.006.png)
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.006.png)
 **
 
 
 **Fig 7 – K-Means Outliers Removed**
 
-![](Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.007.jpeg)
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.007.jpeg)
 
 **Fig 8 – K-Means & Ichimoku Cloud Cluster 4 Table**
 
-![](Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.008.png)
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.008.png)
 **
 
 
 **Fig 9 – K-Means Ichimoku Cloud Chart**
 
-![](Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.009.png)
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.009.png)
 
 **Fig 10 – Golden Cross Returns Table**
 
-![](Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.010.png)
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.010.png)
 **
 
 
 **Fig 11 – Golden Cross Buy / Sell Signals**
 
-![](Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.011.png)
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.011.png)
 
 **Fig 12 – Golden Cross Chart**
 
-![](Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.012.png)
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.012.png)
 **
 
 
 **Fig 13 – Bollinger Bands Returns Table**
 
-![](Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.013.png)
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.013.png)
 
 **Fig 14 – Bollinger Bands Buy / Sell Signals**
 
-![](Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.014.png)
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.014.png)
 **
 
 
 **Fig 15 – Bollinger Bands Chart**
 
-![](Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.015.png)
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.015.png)
 
 **Fig 16 – All Strategy Returns\***
 
-![](Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.016.png)
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.016.png)
 
 \*Momentum was annualized by taking the 5<sup>th</sup> root of 2.73, then raising the result to the power of 10 to estimate 10 years’ worth of compounded returns.
