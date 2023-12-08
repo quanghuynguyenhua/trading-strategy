@@ -1,7 +1,5 @@
 # Trading Strategy
 
-MBAI 5300G – Programming and Data Processing
-
 ANALYSIS OF CONVENTIONAL TECHNICAL INDICATORS & MACHINE LEARNING METHODS IN ALGORITHMIC TRADING DEVELOPMENT
 
 Prepared By: Huy Nguyen, Chris Gell
