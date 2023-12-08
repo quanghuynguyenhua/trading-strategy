@@ -171,7 +171,7 @@ Trading Strategy Guides. (2023, March 15). *Best Ichimoku Cloud Strategy: Accele
 
 **Fig 1 – RSI & Pocket Pivot Individual Stock Growth**
 
-![](Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.001.jpeg)
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.001.jpeg)
 
 **Fig 2 – RSI & Pocket Pivot Returns Table**
 
