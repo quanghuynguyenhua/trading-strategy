@@ -6,7 +6,7 @@ ANALYSIS OF CONVENTIONAL TECHNICAL INDICATORS & MACHINE LEARNING METHODS IN ALGO
 
 Prepared By: Huy Nguyen, Chris Gell
 
-##**Abstract**
+##Abstract
 
 Technical Analysis as a concept has been around almost since the inception of the stock market itself. Through the use of statistical methods, price charting, and data collection, all these variables lead themselves along a simple path to a complicated outcome; utilizing past market movements to predict future pricing trends.
 
@@ -18,10 +18,10 @@ Utilizing the Python programming language, we were able to show that implementin
 
 As a result of our analysis, we believe there is ample opportunity for the inclusion of technical based indicators when it comes to stock selection and trading decisions in an investment portfolio. As such, adhering to a rules-based approach has the potential to increase investment returns beyond those seen in a traditional investment fund.
 
-*Keywords:* Machine Learning, Technical Analysis, Algorithmic Trading, K-Means, Stocks, Python
+*Keywords: Machine Learning, Technical Analysis, Algorithmic Trading, K-Means, Stocks, Python*
 
 
-##**Introduction**
+##Introduction
 
 For our research, we examined popular, classic technical indicators such as the Relative Strength Index (RSI), Pocket Pivot, Ichimoku Cloud, Simple Moving Average (SMA), and Bollinger Bands and the impact their trading signals could have on investment performance (Edwards, Magee, & Bassetti, 2007). Furthermore, stock ranking methods and K-Means machine learning were implemented as additional measures for improving investment performance (Radovanovic, 2022).
 
