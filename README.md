@@ -87,10 +87,35 @@ For our RSI indicator, we would simply track when the index entered into oversol
 Once these parameters were decided on, we simply implemented the trading logic into Python to create our first algorithmic trading strategy. We would enter into a buy position if either of the indicators signaled a buy opportunity, and sell when either indicated a selling opportunity, assuming any stock was currently being held to sell.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+**Fig 1 – RSI & Pocket Pivot Individual Stock Growth**
+
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.001.jpeg)
+
+**Fig 2 – RSI & Pocket Pivot Returns Table**
+
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.002.png)
+**
+
+**Fig 3 – RSI & Pocket Pivot Chart**
+
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.003.jpeg)
+
 ## Momentum
 
 This strategy was more unique and cumbersome in its implementation. After crawling the Wikipedia page for the historical list of companies, we would measure the top 10 performers based on monthly returns, then buy them. Then, at the end of the month, sell them to record the gains or losses and buy the next set of top 10 performers. This process would repeat for the 5 years of data we managed to collect through the BeautifulSoup library.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+**Fig 4 – Momentum Returns Table\***
+
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.004.png)
+
+**\***The above cumulative product is based on returns from 2010 – 2014
+
+**Fig 5 – Momentum Chart\***
+
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.005.png)
+
+\*Based on the 5 year returns
 
 ## K-Means With Ichimoku Cloud
 
@@ -101,6 +126,25 @@ Next, we selected the clusters which we believed would perform best with the Ich
 Once the clusters were identified, all that remained was to implement our buy and sell signals from a function calculating the indicators signals. We would enter into a buy if our conversion line crossed above the baseline (Tenkan-sen crossed above Kijun-sen) and Span B was greater than Span A (Trading Strategy Guides, 2023). Conversely, a sell would be generated if we were currently holding the stock, the conversion line crossed below the baseline, and Span B was less than Span A.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+**Fig 6 – K-Means Initial Clustering – Outliers**
+
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.006.png)
+**
+
+
+**Fig 7 – K-Means Outliers Removed**
+
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.007.jpeg)
+
+**Fig 8 – K-Means & Ichimoku Cloud Cluster 4 Table**
+
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.008.png)
+**
+
+**Fig 9 – K-Means Ichimoku Cloud Chart**
+
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.009.png)
+
 ## Golden Cross
 
 Arguably one of the simpler strategies we implemented, the Golden Cross is a well defined traditional technical indicator that utilizes two SMAs, one for 50 periods, and the other for 200 periods (Hayes, Golden Cross Pattern Explained With Examples and Charts, 2023). In order to recreate this as a trading strategy, we took the ratio between the 50 SMA and 200 SMA to create an easy method for determining crossovers between the indicators.
@@ -110,12 +154,39 @@ When the ratio between the two SMAs was greater than 1, this meant the 50 SMA ha
 Finally, to prevent repeated buys from the indicator, we would only buy if our current position held 0 stock, and sell if our position held 1 stock. Else no actions would be taken by the algorithm.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+**Fig 10 – Golden Cross Returns Table**
+
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.010.png)
+**
+
+**Fig 11 – Golden Cross Buy / Sell Signals**
+
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.011.png)
+
+**Fig 12 – Golden Cross Chart**
+
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.012.png)
+**
+
 ## Bollinger Bands
 
 Finally, for our last strategy, we implemented a very basic interpretation of the Bollinger Bands. Similar to the Golden Cross strategy, we used two ratios for generating a trade signal for buying or selling. If the lower indicator was less than 1, we would purchase the security, and if the upper indicator was greater than 1, we would sell the security.
 
 The bands were automatically calculated using the pandas\_ta library. However, we did have to change the default period value from 5, to 20, in order to match generally agreed standard for the center SMA line (Hayes, Bollinger Bands®: What They Are, and What They Tell Investors, 2023).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+**Fig 13 – Bollinger Bands Returns Table**
+
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.013.png)
+
+**Fig 14 – Bollinger Bands Buy / Sell Signals**
+
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.014.png)
+**
+
+**Fig 15 – Bollinger Bands Chart**
+
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.015.png)
 
 ## Experimental Results & Analysis
 
@@ -128,6 +199,13 @@ Then, once all 10 of the companies had run through each of the trading strategie
 For an additional comparison measure, we also compared the return of a Naive strategy, which simply bought the stock on the first day, and sold it on the last observation period.
 
 Unsurprisingly, this baseline strategy performed remarkably well, due to the nature of the top 10 holdings themselves of the mutual fund. Each of the companies in the top 10 holdings have seen incredible growth in their corporate value the past 10 years, such as Tesla, Microsoft, and NVIDIA to name a few.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+**Fig 16 – All Strategy Returns\***
+
+![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.016.png)
+
+\*Momentum was annualized by taking the 5<sup>th</sup> root of 2.73, then raising the result to the power of 10 to estimate 10 years’ worth of compounded returns.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Conclusion
@@ -178,89 +256,15 @@ Trading Strategy Guides. (2023, March 15). *Best Ichimoku Cloud Strategy: Accele
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Appendix
-
-**Fig 1 – RSI & Pocket Pivot Individual Stock Growth**
-
-![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.001.jpeg)
-
-**Fig 2 – RSI & Pocket Pivot Returns Table**
-
-![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.002.png)
-**
-
-
-**Fig 3 – RSI & Pocket Pivot Chart**
-
-![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.003.jpeg)
-
-**Fig 4 – Momentum Returns Table\***
-
-![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.004.png)
-
-**\***The above cumulative product is based on returns from 2010 – 2014
 
 
 
-**Fig 5 – Momentum Chart\***
-
-![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.005.png)
-
-\*Based on the 5 year returns
-
-**Fig 6 – K-Means Initial Clustering – Outliers**
-
-![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.006.png)
-**
 
 
-**Fig 7 – K-Means Outliers Removed**
-
-![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.007.jpeg)
-
-**Fig 8 – K-Means & Ichimoku Cloud Cluster 4 Table**
-
-![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.008.png)
-**
 
 
-**Fig 9 – K-Means Ichimoku Cloud Chart**
-
-![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.009.png)
-
-**Fig 10 – Golden Cross Returns Table**
-
-![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.010.png)
-**
 
 
-**Fig 11 – Golden Cross Buy / Sell Signals**
-
-![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.011.png)
-
-**Fig 12 – Golden Cross Chart**
-
-![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.012.png)
-**
 
 
-**Fig 13 – Bollinger Bands Returns Table**
 
-![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.013.png)
-
-**Fig 14 – Bollinger Bands Buy / Sell Signals**
-
-![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.014.png)
-**
-
-
-**Fig 15 – Bollinger Bands Chart**
-
-![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.015.png)
-
-**Fig 16 – All Strategy Returns\***
-
-![](/img/Aspose.Words.daf8a82a-4601-42a2-8169-638afbf189eb.016.png)
-
-\*Momentum was annualized by taking the 5<sup>th</sup> root of 2.73, then raising the result to the power of 10 to estimate 10 years’ worth of compounded returns.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
